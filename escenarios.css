@@ -1,0 +1,18 @@
+/*FLOTANDO LAS IMAGENES*/
+
+/*especifidad a=0 b=1 c= 1 011*/
+img.estudioclass{
+    float:left;
+    margin:10px;
+   
+}
+/*especifidad a=0 b=1 c= 1 011*/
+img.carniceriaclass{
+    float:right;
+    margin:10px;
+   
+}
+/*especifidad a=1 b=0c= 0 100*/
+#carniceria{
+    width: 25%;
+}

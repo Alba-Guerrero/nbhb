@@ -1,0 +1,17 @@
+
+/*especifidad a=0 b=1 c= 1 011*/
+video.video{
+    float:left;
+    margin:10px;
+}
+/*especifidad a=0 b=1 c= 1 011*/
+p.videop{
+    float:right;
+    border:2px ;
+	margin: 1em;
+    padding: 1em;}
+
+  /*especifidad a=0 b=1 c= 1 011*/
+audio.audio{ float:left;
+    margin:10px;}
+/*especifidad a=0 b=1 c= 1 011*/
