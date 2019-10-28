@@ -1,0 +1,29 @@
+/*especifidad a=0 b=1 c= 1 011*/
+img.premioEmmy{
+    float:left;
+    margin:10px;
+}
+
+/*especifidad a=1 b=1 c=1 111*/
+#tableSoprano td:first-child {font-weight: bolder;}
+
+/*especifidad a=1 b=1 c=2 112*/
+#tableSoprano td:first-child + td {font-family: monospace;}
+/*especifidad a=1 b=1 c=2 112*/
+#tableSoprano {
+    font-size: 1.1em;
+    text-align: center;
+}
+/*especifidad a=0 b=0 c=1 001*/
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    
+  }
+/*especifidad a=0 b=0 c=1 001*/
+  td, tr {
+    padding: 10px;
+    text-align: center;
+    border: 3px solid black;
+  }

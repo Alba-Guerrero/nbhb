@@ -1,0 +1,37 @@
+/**
+FLOTANDO IMAGENES HTML personajes*/
+/*especifidad a=0 b=1 c= 1 011*/
+img.jenniferImg{
+    float:left;
+    margin:10px;
+}
+/*especifidad a=1 b=0c= 0 100*/
+#JenniferMelfiImg{
+    width:10%;
+}
+/*especifidad a=0 b=1 c= 1 011*/
+img.tonyImg{
+    float:left;
+    margin:10px;
+}
+
+p.ton{
+    float:right;
+    border:2px ;
+	margin: 1em;
+    padding: 1em;
+   
+}
+/*especifidad a=1 b=0c= 0 100*/
+#TonySopranoImg{
+    width:12%;
+}
+/*especifidad a=0 b=1 c= 1 011*/
+img.paulieimg{
+    float:left;
+    margin:10px;
+}
+/*especifidad a=1 b=0c= 0 100*/
+#PaulieImg{
+    width:15%;
+}
